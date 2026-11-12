@@ -1,5 +1,7 @@
 # Metabolic Health Lab
 
+Version 1.1.0: instrument-first scientific redesign. Design decisions and tokens are documented in [DESIGN-SYSTEM.md](DESIGN-SYSTEM.md), with all colours, spacing and typography defined centrally in `assets/tokens.css`. The experiment rail remains visible on every page, data types are explicitly classified, and optional learning activities are secondary to laboratory safety and measurements.
+
 Interactive, browser-only laboratory practical for **SPO007-6 Metabolic Health**, University of Bedfordshire. Academic lead: Dr Mike Newell.
 
 ## Run locally

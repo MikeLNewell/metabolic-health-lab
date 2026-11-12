@@ -1,0 +1,56 @@
+/* Metabolic Health Lab | Design system v1.1.0
+ * Scientific-learning family. Defined centrally to keep appearance consistent.
+ * Measured/active = sea glass; calculated = ice blue; exercise = lilac;
+ * recovery / cautions = amber; simulation = striped neutral indicator.
+ */
+:root {
+  color-scheme: dark;
+  --canvas: #071521;
+  --surface: #102332;
+  --surface-high: #172f3f;
+  --surface-quiet: #0c1c29;
+  --surface-input: #0b1e2c;
+  --line: #30495a;
+  --line-soft: #233a49;
+  --ink: #f3f8f9;
+  --ink-soft: #c4d5db;
+  --muted: #a3b8c3;
+  --accent: #65d9c8;
+  --accent-ink: #082a30;
+  --derived: #a5c8ff;
+  --exercise: #c2b3fa;
+  --recovery: #f5c18e;
+  --error: #ffacb2;
+  --focus: #a2eddf;
+  --bg: var(--canvas);
+  --bg2: var(--surface-quiet);
+  --panel: var(--surface);
+  --panel2: var(--surface-high);
+  --border: var(--line);
+  --text: var(--ink);
+  --mint: var(--accent);
+  --purple: var(--exercise);
+  --orange: var(--recovery);
+  --pink: var(--error);
+  --blue: var(--derived);
+  --shadow: 0 12px 28px rgba(0,0,0,.09);
+  --font-display: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-body: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-data: ui-monospace, 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --radius-control: 6px;
+  --radius-panel: 12px;
+  --radius-hero: 16px;
+  --duration-fast: 140ms;
+  --duration-normal: 260ms;
+  --duration-reveal: 440ms;
+  --content-max: 1310px;
+  --reading-max: 69ch;
+}
