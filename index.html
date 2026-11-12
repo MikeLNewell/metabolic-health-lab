@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#071321" />
+  <meta name="description" content="A student-led, interactive indirect calorimetry and exercise metabolism laboratory for SPO007-6 at the University of Bedfordshire." />
+  <title>Metabolic Health Lab | SPO007-6</title>
+  <link rel="stylesheet" href="assets/app.css" />
+  <link rel="icon" type="image/svg+xml" href="assets/icon.svg" />
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand"><div class="brand-logo">M<span>·</span></div><div class="brand-text">METABOLIC<br /><span>HEALTH LAB</span></div></div>
+    <div class="sidebar-caption">YOUR WORKSPACE</div>
+    <nav class="main-nav" id="nav" aria-label="Main navigation">
+      <button class="nav-item active" data-page="mission"><span class="nav-no">01</span><span>Mission control</span><span class="nav-icon">↗</span></button>
+      <button class="nav-item" data-page="protocol"><span class="nav-no">02</span><span>Protocol</span><span class="nav-icon">↗</span></button>
+      <button class="nav-item" data-page="laboratory"><span class="nav-no">03</span><span>Live laboratory</span><span class="nav-icon">↗</span></button>
+      <button class="nav-item" data-page="analysis"><span class="nav-no">04</span><span>Analysis studio</span><span class="nav-icon">↗</span></button>
+      <button class="nav-item" data-page="challenges"><span class="nav-no">05</span><span>Challenges</span><span class="nav-icon">↗</span></button>
+      <button class="nav-item" data-page="debrief"><span class="nav-no">06</span><span>Debrief & export</span><span class="nav-icon">↗</span></button>
+    </nav>
+    <div class="sidebar-bottom"><div class="status-marker"><span class="live-dot"></span> DATA STAYS ON THIS DEVICE</div><p>Anonymous records · Local autosave<br />No login · No cloud database</p><button class="quiet-link" id="open-teacher">⚙ &nbsp;Teaching settings</button></div>
+  </aside>
+  <div class="main-wrap">
+    <header class="topbar"><div class="mobile-logo">M<span>·</span> LAB</div><div class="breadcrumb" id="breadcrumb">SPO007-6 <span>/</span> MISSION CONTROL</div><div class="top-actions"><div class="save-status" id="save-status"><span class="saved-dot"></span> Locally saved</div><button class="icon-button" id="mobile-menu" aria-label="Toggle menu">☰</button></div></header>
+    <main id="main" tabindex="-1" aria-live="polite"></main>
+    <footer class="site-footer"><span>© Dr Mike Newell · SPO007-6 Metabolic Health · University of Bedfordshire</span><span>v1.0.0 · 12 Nov 2026 · <a href="licence.html" target="_blank" rel="noopener">Licensing</a></span></footer>
+  </div>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script type="module" src="assets/app.js"></script>
+</body>
+</html>
